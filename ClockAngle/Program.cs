@@ -36,21 +36,21 @@
                 double NewAngle = angle * -1;
                 double angle2 = 360 - NewAngle;
 
-                Console.WriteLine("Angle from hour hand is " + NewAngle);
-                Console.WriteLine("Angle from Minutes hand is " + angle2);
+                Console.WriteLine("\nAngle from hour hand is " + NewAngle);
+                Console.WriteLine("\nAngle from Minutes hand is " + angle2);
 
-                Console.WriteLine("The lesser ANGLE in Degrees is " + NewAngle + " degrees.");
+                Console.WriteLine("\n \tThe lesser ANGLE in Degrees is " + NewAngle + " degrees.");
 
             }
             else
             {
                 double angle3 = 360 - angle;
 
-                Console.WriteLine("Angle from hour hand is " + angle);
-                Console.WriteLine("Angle from Minutes hand is " + angle3);
+                Console.WriteLine("\nAngle from hour hand is " + angle);
+                Console.WriteLine("\nAngle from Minutes hand is " + angle3);
 
                 
-                Console.WriteLine("The lesser ANGLE in Degrees is " + angle + " degrees.");
+                Console.WriteLine("\n \tThe lesser ANGLE in Degrees is " + angle + " degrees.");
 
 
             }
